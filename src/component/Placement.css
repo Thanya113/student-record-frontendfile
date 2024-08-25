@@ -1,0 +1,23 @@
+.placement-container {
+    overflow: hidden;
+  }
+  
+  .image-scroll {
+    display: flex;
+    animation: scroll 40s linear infinite;
+  }
+  .company-logo {
+    width: 250px; /* Adjust the width to your preference */
+    height: auto;
+    margin-right: 5px; /* Add some spacing between logos */
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

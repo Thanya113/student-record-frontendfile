@@ -1,0 +1,36 @@
+.main-container {
+  display: flex;
+  margin: 10px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px; /* Adjust the margin to add spacing between columns */
+}
+
+.scroll-container {
+  overflow: hidden;
+}
+
+.scroll-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 200px; /* Adjust the height as needed */
+  animation: rotate-scroll 40s linear infinite;
+}
+
+.scroll-list li {
+  margin: 10px 0; /* Adjust the margin to add space between items */
+  font-size: 16px;
+}
+
+@keyframes rotate-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

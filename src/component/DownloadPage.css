@@ -1,0 +1,21 @@
+.second-component-container {
+    text-align: left;
+    margin: 20px;
+  }
+  
+  .input-container {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  

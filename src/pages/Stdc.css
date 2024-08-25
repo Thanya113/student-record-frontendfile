@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .chat-container {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-header {
+    background-color: #075e54;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .chat {
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: #fff;
+  }
+  
+  .admin-message {
+    background-color: #075e54;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    max-width: 80%;
+    align-self: flex-end;
+  }
+  
+  .student-message {
+    background-color: #dcf8c6;
+    color: #333;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    max-width: 80%;
+  }
+  
+  .input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .send-button {
+    background-color: #075e54;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button:hover {
+    background-color: #054a3d;
+  }
+  
